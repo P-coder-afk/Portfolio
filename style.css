@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(255, 251, 4);
+}
+h2{
+  color:rgb(1, 212, 240);
+}
+.background{
+    background-image: url("img1.jpg");
+}
+
+.header{
+    text-align: center;
+    background-image: url("img2.jpg");
+     justify-content: space-between;  
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    transform: rotateX(40deg);
+}
+p,h4{
+    color: rgb(255, 60, 0);
+}
+.item{
+    color:red;
+    transition: transform 250ms;
+}
+.item:hover{
+transform: translateY(-50px);
+
+}
+.Myimage{
+    color:rgb(252, 10, 103);
+    background-color: rgb(245, 6, 6);
+    text-align: center;
+}
+.About{
+transition: transform 250ms;
+}
+.About:hover{
+    transform:translateY(-15px);
+}
+.About{
+    color:rgb(245, 117, 12);
+    background-image: url("img3.jpg");
+}
